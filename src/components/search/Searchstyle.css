@@ -1,0 +1,24 @@
+.search-result-content{
+    
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.options{
+    display: flex;
+    gap: 1rem;
+}
+
+.options b{
+    font-size: 13px;
+    color: pink;
+}
+
+.search-image{
+    width: 4rem;
+    height: 3rem;
+}

@@ -1,0 +1,55 @@
+.policy-box{
+    margin-top: 0;
+    
+}
+
+.policy-box .service-container{
+    align-items: center;
+    background-color: hsl(353, 100%, 78%);
+    border-radius: 0%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.policy-box .service-item{
+    min-width: none;
+}
+
+@media screen and (max-width:480px){
+    .policy-box .service-item{
+        flex-direction: column;
+       
+        width: 5rem;
+        margin: auto 0;
+    }
+    .policy-box .service-container{
+        padding-left: 0;
+        padding-right: 0;
+        gap: 0.5rem;
+    } 
+
+   
+
+
+
+    .policy-box .service-content{
+        
+        text-align: center;
+    }
+}
+
+.policy-box .service-icon{
+    color: white;
+}
+
+.policy-box .service-title{
+    color: white;
+}
+
+.policy-box .service-desc{
+color: white;
+}
+
+.singleprod .product-featured {
+    margin-bottom: 0;
+}

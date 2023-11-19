@@ -1,0 +1,10 @@
+.error404image{
+    height: auto;
+    width: 60%;
+}
+
+.error404div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,94 @@
+.wishpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.wlheading{
+    margin:1.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.wlheading ion-icon{
+    height: 2rem;
+    width: 2rem;
+    fill: hsl(353, 100%, 78%);
+
+}
+
+.closeandadd .checkout-btn{
+    width: 60%;
+}
+.closeandadd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 0.5rem 0;
+    gap: 5rem;
+
+}
+
+.wlitem-details{
+    width: 40%;
+}
+
+.wishpage ul li{
+    border: 1px solid #D9D9D9;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 1rem;
+margin-bottom: 1rem;
+}
+
+.closeandadd button{
+    align-self: end;
+    margin-right: 1rem;
+}
+
+.wishpage ul{
+    margin-bottom: 1rem;
+}
+
+.in-stock-btn{
+    color: hsl(152, 51%, 52%);
+    font-size: 0.75rem;
+}
+
+#oos{
+    color: red;
+}
+
+@media screen and (max-width:480px){
+    .wishpage ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-image-box{
+        width: 100%;
+    }
+    .wlitem-details{
+        width: 100%;
+    }
+    .closeandadd{
+        width: 100%;
+        flex-direction: row-reverse;
+        gap: 3rem;
+    }
+    .closeandadd button{
+        align-self: auto;
+    }
+
+    .wishpage .item-image{
+        width: 100%;
+        height: 10rem;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .closeandadd .checkout-btn{
+        padding: 0 0.25rem;
+        width: 80%;
+    }
+}
